@@ -90,7 +90,8 @@ graph LR
 
 ### 架构概览
 
-```graph TD
+```mermaid
+graph TD
     A[角色激活] --> B[自动加载remember/recall]
     B --> C[记忆检索执行]
     C --> D{记忆库状态}
@@ -105,7 +106,8 @@ graph LR
 
 ###### 自动触发
 
-```mindmap
+```mermaid
+mindmap
   root((记忆触发时机))
     角色激活时
       @!thought://remember自动执行
