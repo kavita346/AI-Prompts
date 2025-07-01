@@ -90,7 +90,7 @@ graph LR
 
 ### 架构概览
 
-graph TD
+```graph TD
     A[角色激活] --> B[自动加载remember/recall]
     B --> C[记忆检索执行]
     C --> D{记忆库状态}
@@ -99,12 +99,13 @@ graph TD
     E --> G[记忆融入角色上下文]
     F --> G
     G --> H[角色完全激活]
+```
 
 ### 记忆触发机制
 
 ###### 自动触发
 
-mindmap
+```mindmap
   root((记忆触发时机))
     角色激活时
       @!thought://remember自动执行
@@ -121,6 +122,7 @@ mindmap
       重要信息出现
       经验总结时刻
       知识更新需求
+```
 
 ###### 主动回调触发
 
