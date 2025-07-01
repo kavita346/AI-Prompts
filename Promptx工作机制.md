@@ -154,6 +154,7 @@ mindmap
 
 > Promptx 使用的是分层记忆架构
 
+``` mermaid
 graph LR
     A[用户交互] --> B{记忆价值评估}
     B -->|高价值| C[remember工具]
@@ -161,6 +162,7 @@ graph LR
     C --> E[专业记忆库]
     E --> F[角色激活时自动加载]
     F --> G[recall工具检索]
+```
 
 ### 记忆检索策略
 
