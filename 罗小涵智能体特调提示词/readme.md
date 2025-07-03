@@ -20,6 +20,11 @@
 - 当前版本仅为 1.0 初期概念版，仅结合 promptx 通过提示词暗示后，可正确判断并学习掌握各种资料
 - 目前绝大部分概念只是初步融合，后续可能会研究MCP或其他方式，让这个角色做到像一个真正的"人"而非智能体，去思考、学习、判断、推理等内容
 
+# 研究不易，有能力的帅哥靓妹赏口饭吃嘛呜呜呜
+
+![d7e62f26817b5ebf6196019123154a86](https://github.com/user-attachments/assets/9b1fe5af-7d55-42e3-b551-97ed09de0954)
+![5f90c373a326c402d07c609e741c810b](https://github.com/user-attachments/assets/b5a51f0c-b28c-489b-985d-73833663f81e)
+
 # 使用
 
 1. 安装 **promptx MCP**
